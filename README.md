@@ -26,36 +26,25 @@ Streamlit (if planning deployment)
 ## 📦 Installation
 Clone the repository:
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/ai-health-coach.git
+git clone https://github.com/Sudhin-star/ai-health-coach.git
 cd ai-health-coach
 Create a virtual environment:
 
-bash
-Copy
-Edit
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 Install dependencies:
 
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 (Optional) Set your OpenAI API key:
 
-bash
-Copy
-Edit
+
 export OPENAI_API_KEY=your_key_here
+
 ## 💡 Usage
 Open the notebook:
 
-bash
-Copy
-Edit
+
 jupyter notebook aihealthcoach.ipynb
 Interact with the cells to chat with the AI health assistant.
 
@@ -65,14 +54,13 @@ Interact with the cells to chat with the AI health assistant.
 ### AI Coach: Great question! Some healthy options include mixed nuts, Greek yogurt, hummus with veggies, or a small piece of dark chocolate for a sweet touch.
 
 ## 📁 File Structure
-bash
-Copy
-Edit
+
 .
 ├── aihealthcoach.ipynb       # Main notebook
 ├── README.md                 # Project documentation
 ├── requirements.txt          # Python dependencies (to be created)
 └── .gitignore                # Ignored files
+
 ## 📌 TODO
  Add user authentication
 
